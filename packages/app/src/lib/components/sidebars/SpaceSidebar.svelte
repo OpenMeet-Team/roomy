@@ -191,7 +191,7 @@
       <Button
         class="w-full justify-start mb-2"
         variant="ghost"
-        href={`/${page.params.space}`}
+        href={`/${page.params.space}/index`}
         data-current={!page.params.object && !page.url.pathname.endsWith("/calendar")}
       >
         <IconHome class="shrink-0" />
